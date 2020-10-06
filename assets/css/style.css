@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cormorant Garamond', serif;
+    background-color: rgb(233, 233, 224);
+    box-sizing: border-box;
+}
+header {
+    width: 90%;
+    margin: 0 auto;
+
+}
+h1 {
+    width: 100%;
+    font-size: 1.3rem;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px double #333;
+    border-bottom: 2px double #333;
+    
+}
+.header__item {
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+section {
+    width: 84%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    /* grid-template-rows: 10vh 1fr 1fr 1fr; */
+    gap: 15px;
+}
+aside {
+    width: 18%;
+    margin-left: 1%;
+}
+
+h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    padding-top: 2vh;
+}
+.article-h3 {
+    font-size: 90%;
+}
+section p {
+    font-size: 65%;
+}
+.article1 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+.article2 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+.article3 {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+.article4 {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+.article5 {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+}
+.article6 {
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+figure {
+    grid-column: 3 / 5;
+    grid-row: 2 / 5;
+}
+.article-img {
+    width: 100%;
+}
+figcaption {
+    font-size: 80%;
+    font-style: oblique;
+}
+article h3 {
+    font-size: 100%;
+    text-align: center;
+    margin: 2vh 0;
+}
+.aside-h3 {
+    font-size: 75%;
+    text-align: center;
+    padding: 4% 0;
+}
+.box {
+    height: 30%;
+    border: 2px double #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.box1-p {
+    font-size: 260%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2 {
+    text-align: center;
+    padding: 10%;
+}
+.box2-p {
+    font-size: 70%;
+}
+.box2 h4 {
+    font-size: 100%;
+}
+.logo-img {
+    width: 93%;
+    padding: 8%;
+    filter: grayscale(100%);
+}
